@@ -5,11 +5,19 @@
 
 $fn = 180;                // Rendering smoothness
 
+// laser cutter side
 hose_end_od = 80.3;       // Outside diameter of male hose end
-fan_duct_od = 73.0;       // Actual outside diameter of fan duct
+fan_duct_od = 72.0;       // Actual outside diameter of fan duct
 fan_clearance = 0.6;     // Total diametral clearance for fan socket
-wall = 1.5;              // Radial wall thickness
 
+// wall side
+//hose_end_od = 80.3;       // Outside diameter of male hose end
+//fan_duct_od = 80.3;       // Actual outside diameter of fan duct
+//fan_clearance = 0.6;     // Total diametral clearance for fan socket
+
+
+
+wall = 3;              // Radial wall thickness
 hose_straight = 20.0;     // Insertion length into hose
 transition_length = 5.0;
 fan_straight = 20.0;      // Socket engagement length over fan
